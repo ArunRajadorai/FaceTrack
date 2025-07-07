@@ -63,7 +63,7 @@ const AdminLogin = () => {
       }, 1000);
     } catch (error) {
       setServerError(error.message);
-      setGlowColor("rgba(243, 11, 11, 0.8)"); // Red glow
+      setGlowColor("rgba(243, 12, 11, 0.8)"); // Red glow
       setTimeout(() => setGlowColor("transparent"), 4000);
     } finally {
       setLoading(false); // Stop loading
